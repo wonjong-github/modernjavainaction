@@ -1,0 +1,5 @@
+rootProject.name = 'modernjavainaction'
+include 'src:main:expenses.application'
+findProject(':src:main:expenses.application')?.name = 'expenses.application'
+include 'expenses.readers'
+

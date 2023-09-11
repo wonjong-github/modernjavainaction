@@ -1,0 +1,6 @@
+package chap9;
+
+@FunctionalInterface
+public interface ValidationStrategy {
+    boolean execute(String s);
+}
